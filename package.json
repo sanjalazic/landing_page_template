@@ -1,0 +1,27 @@
+{
+  "name": "simple_landing_page",
+  "version": "1.0.0",
+  "description": "Simple landing page that can be easily custimized",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "simple",
+    "template",
+    "css",
+    "html",
+    "js",
+    "design",
+    "usi",
+    "ux"
+  ],
+  "author": "Sanja Lazic",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

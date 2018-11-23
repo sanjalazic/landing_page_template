@@ -1,0 +1,30 @@
+.button {
+  padding: 1.3rem 2.8rem;
+  margin-left: 20px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.33;
+  letter-spacing: .02em;
+  vertical-align: middle;
+  border-radius: .2rem;
+  word-break: break-word;
+  max-width: 100%;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+
+.button-primary {
+  color: #fff;
+  will-change: color,background,border,box-shadow;
+  background-color: $color-primary;
+  transition: color .2s cubic-bezier(.86,0,.07,1),background .2s cubic-bezier(.86,0,.07,1),border .2s cubic-bezier(.86,0,.07,1),box-shadow .15s cubic-bezier(.86,0,.07,1);
+
+  &:hover {
+    background-color: $color-primary-darker;
+    box-shadow: 1.6rem 1.6rem 0 0 rgba(113,91,210,.1);
+  }
+}
