@@ -179,3 +179,47 @@ body {
         transition: color 0.15s cubic-bezier(0.86, 0, 0.07, 1); }
         .header__list__item a:hover {
           color: #36268A; }
+
+.hero {
+  background: linear-gradient(45deg, #7931E1, #36268A);
+  color: #fff;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh; }
+  .hero__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 120rem; }
+  .hero__content {
+    z-index: 20;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6rem 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .hero__heading {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1.33; }
+  .hero__subtitle {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.33;
+    letter-spacing: .02em; }
