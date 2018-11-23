@@ -1,2 +1,2 @@
-# landing_page_template
-Simple Landing Page Template
+# Simple landing page template
+
