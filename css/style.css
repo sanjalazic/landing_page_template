@@ -80,6 +80,37 @@ body {
       margin-top: 20px;
       text-align: center; } }
 
+.section__header {
+  margin-bottom: 1rem; }
+  .section__header .section__heading {
+    max-width: 66rem;
+    text-align: center;
+    width: 66rem;
+    margin: 100px auto 0 auto;
+    letter-spacing: .03em;
+    color: #282940;
+    font-size: 4.4rem;
+    font-weight: 500;
+    line-height: 1.33; }
+
+.customer-slider__heading {
+  color: #7931E1;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  margin-left: 2rem; }
+
+.customer-slider__description {
+  color: #282940;
+  word-break: break-all;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-left: 2rem; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -345,3 +376,58 @@ body {
       content: "";
       display: block;
       padding-top: 61.11%; }
+
+.customer-slider {
+  margin-top: 5rem;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto; }
+  .customer-slider__inner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 120rem;
+    align-items: center; }
+  .customer-slider__card {
+    width: 60rem;
+    height: 30rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 3rem 0 rgba(45, 18, 108, 0.2);
+    transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1); }
+  .customer-slider__image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    border: 3px solid #777; }
+  .customer-slider__options:before {
+    content: "";
+    position: absolute;
+    background-color: #7931E1;
+    top: 0;
+    width: .3rem;
+    height: 100%;
+    opacity: 0.2;
+    will-change: opacity;
+    transition: opacity 0.15s cubic-bezier(0.86, 0, 0.07, 1), background 0.15s cubic-bezier(0.86, 0, 0.07, 1); }
+    @media (max-width: 75em) {
+      .customer-slider__options:before {
+        position: relative;
+        display: none; } }
+  .customer-slider__options__inner {
+    display: flex;
+    flex-direction: column; }
+    @media (max-width: 75em) {
+      .customer-slider__options__inner {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        justify-content: center; } }
+  .customer-slider__options__block {
+    margin: 1rem 0; }
