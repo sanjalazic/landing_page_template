@@ -2,6 +2,25 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  background-color: orangered;
+  background-color: $color-grey-light-1;
   color: $color-grey-dark;
+}
+
+.hero {
+  &__heading {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: .03em;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.33;
+    letter-spacing: .09em;
+    margin: 3rem 0;
+  }
 }
