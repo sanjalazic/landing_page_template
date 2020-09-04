@@ -22,6 +22,6 @@
   "author": "Sanja Lazic",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.10.0"
+    "node-sass": "^4.13.1"
   }
 }
